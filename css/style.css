@@ -70,7 +70,7 @@
 	display: block;
 	text-align: center;
 	padding-bottom:10px;
-	font-size:35px;
+	font-size:15px;
 	font-family:nameFont;
 }
 
@@ -130,4 +130,13 @@
 #contactBody a:active {
     color: #CCC;
 	text-decoration: none;
+}
+
+/* BOOTSTRAP ALTERATIONS */
+
+.navbar {
+  position: relative;
+  min-height: 20px;
+  margin-bottom: 8px;
+  border: 1px solid transparent;
 }
