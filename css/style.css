@@ -37,14 +37,17 @@
 #bgLogo{
 	display: block;
 	background-image:url(../img/chevronTopWhite.png);
-	background-position:center 100%;
+	background-position:center bottom;
 	background-repeat:no-repeat;	
-	width=1400px;
+	width=100%;
 	padding-top:-50px;
+	background-size:cover;
+
 }
 #aboutMeTitle {
 	display: block;
 	text-align: center;
+	padding-top:30px;
 	padding-bottom:10px;
 	font-size:35px;
 	font-family:nameFont;
@@ -76,14 +79,15 @@
 
 #bgAustin {
 	padding-top:0%;
-	background-position:center 40%;
+	background-position:center bottom;
 	background-repeat:no-repeat;
 	background-image:url(../img/chevronTop.png);
 	
-	width=1400px;
+	width=100%;
 	height=auto;
-	padding-bottom:100px;
-	
+	padding-bottom:50px;
+	background-size: cover;
+
 	background-color:#434343;
 	
 }
@@ -91,12 +95,13 @@
 #aboutBg {
 	z-index:-1;
 	padding-top:0px;
-	background-position: center 100%;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-image:url(../img/chevronAbout.png);
-	width=1440px;
+	width=100%;
 	height=auto;
 	padding-bottom:100px;
+	background-size: cover;
 }
 #aboutMeBody{
 	color:#CCC;
@@ -132,11 +137,3 @@
 	text-decoration: none;
 }
 
-/* BOOTSTRAP ALTERATIONS */
-
-.navbar {
-  position: relative;
-  min-height: 20px;
-  margin-bottom: 8px;
-  border: 1px solid transparent;
-}
