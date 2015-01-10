@@ -7,6 +7,15 @@
 	font-size:50px;
 }
 
+img { 
+    image-rendering: optimizeSpeed;             /*                     */
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+    }
+
 #AustinIntro {
 	display: block;
 	text-align:center;
@@ -198,4 +207,23 @@
 .shrinkSidePadding{
 	padding-left:25%;
 	padding-right:25%;
+}
+
+#resizeYtype{
+	max-height:auto; 
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+#resize2048{
+	max-height: auto; 
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+#resizeCandy{
+	max-height:auto;
+	max-width:100%;
+	height:auto;
+	width:auto;
 }
