@@ -132,6 +132,7 @@ img {
 	height=auto;
 	padding-bottom:90px;
 	background-size: cover;
+	background-color:#8DD2CF;
 }
 
 #bgAustin {
@@ -161,6 +162,52 @@ img {
 	background-size: cover;
 	background-color:#EDED8D;
 }
+
+#digitalBg{
+	padding-top:0%;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_Digital.png);
+	width=100%;
+	height=auto;
+	padding-bottom:50px;
+	background-size: cover;
+	background-color:#FFF;
+}
+#filmBg{
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_p1.png);
+	width=100%;
+	height=auto;
+	padding-bottom:50px;
+	background-size: cover;
+	background-color:#F6F7F8;
+	
+}
+#illustratorBg{
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_p2.png);
+	width=100%;
+	height=auto;
+	padding-bottom:80px;
+	background-size: cover;
+	background-color:#EEF0F0;
+}
+#packagingBg{
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_p3.png);
+	width=100%;
+	height=auto;
+	padding-bottom:90px;
+	background-size: cover;
+	
+}
+
+
+
 #aboutMeBody{
 	color:#CCC;
 	font-family:"Helvetica";
@@ -228,6 +275,18 @@ img {
 	width:auto;
 }
 #resizeCandy{
+	max-height:auto;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+.resizeIllustrator{
+	max-height:auto;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+.resizePackaging{
 	max-height:auto;
 	max-width:100%;
 	height:auto;
