@@ -203,9 +203,30 @@ img {
 	height=auto;
 	padding-bottom:90px;
 	background-size: cover;
+	background-color:#C6E5CD;
 	
 }
 
+#visualBg{
+	padding-top:0%;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_Visual.png);
+	width=100%;
+	height=auto;
+	padding-bottom:50px;
+	background-size: cover;
+	background-color:#FFF;
+}
+#flightBg{
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-image:url(../img/chevron_p1.png);
+	width=100%;
+	height=auto;
+	padding-bottom:50px;
+	background-size: cover;	
+}
 
 
 #aboutMeBody{
@@ -287,6 +308,12 @@ img {
 	width:auto;
 }
 .resizePackaging{
+	max-height:auto;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+#resizeFlight{
 	max-height:auto;
 	max-width:100%;
 	height:auto;
