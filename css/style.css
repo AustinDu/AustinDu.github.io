@@ -40,25 +40,43 @@ img {
 	padding-top:5px;
 }
 
-#logo {
-	display: block;
-	text-align: center;
-	padding-bottom:10px;
-}
-#logo img{
-	height:25%;
-	width:auto;
-}
-#bgLogo{
+nav{
+	z-index:1;
+	position:fixed;
 	display: block;
 	background-image:url(../img/chevronTopWhite.png);
 	background-position:center bottom;
 	background-repeat:no-repeat;	
-	width=100%;
+	width:100%;
 	padding-top:-50px;
 	background-size:cover;
-
+	background-color:transparent;
+	text-align: center;
+	padding-bottom:10px;
 }
+
+#pageScrollListener{
+	z-index:2;
+}
+
+.scrolled{
+	margin-top:-1px;
+	background-position:center top;
+	background-size:auto;
+	background-image:url(../img/chevron_top_shrink.png);
+	background-color:transparent;
+	position:fixed;
+	width:100%;
+	height:auto;
+	z-index:1;
+}
+
+.scrolled img{
+	padding-top:2px;
+	max-height:9%;
+	max-width:9%;
+}
+
 #aboutMeTitle {
 	display: block;
 	text-align: center;
@@ -136,7 +154,7 @@ img {
 }
 
 #bgAustin {
-	padding-top:0%;
+	padding-top:200px;
 	background-position:center bottom;
 	background-repeat:no-repeat;
 	background-image:url(../img/chevronTop.png);
