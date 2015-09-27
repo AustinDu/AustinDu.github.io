@@ -1,396 +1,105 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+  <head>
+    <title>
+      Austin Du
+    </title>
 
-<head>
-	<title>Austin Du.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
-    <link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css" />
-    <link href="css/lightbox.css" rel="stylesheet" />
-    
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/scrolling.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/index-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <script src="scripts/scripts.js"></script>
 
-    <script src="js/bootstrap.js"></script>
-    <script src="js/lightbox.min.js"></script>
-</head>
-<body>
-	<nav>
-	<!--<div id="bgLogo">
-        <div class="container" >
-                <div id="logo"> 
-                    <img src="img/logo-07.png" /> 
-                </div>
-        </div>
-	</div>-->
-    <img id="pageScrollListener" src="img/logo-07.png" /> 
+  </head>
+  <body>
 
-    <!--<div class="container" >
-                <div id="logo"> 
-                    <img src="img/logo-07.png" /> 
-                </div>
-    </div>-->
-    </nav>
-	<div id="bgAustin">
-        <div class="container">
-        	<div class="row">
-            	<div class="col-md-12">
-                    <div id="AustinIntro"> 
-                        Austin &nbsp;&nbsp;Du 
-                    </div>
-                    <div id="austinCaption"> A software engineering undergraduate at the University of Waterloo </div>
-            	</div>
-        	</div>
-        </div>
-    </div>
-    <div id="aboutBg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="aboutMeTitle"> About Me </div>
-                    <div id="aboutMeBody"> A student. A programmer. A designer. An inspired man. 
-                    <br /><br />
-                    I have always been interested in the industry of software and technology, often spending my free time reading articles of the latest developments in technology. Coupled along with my enthusiasm in business and interest in the world of entrepreneurship, I plan to be part of an innovative future.
-                    <br /><br />
-                    My skills include knowledge in Java, C, HTML and CSS with experience in Python and C++. I also have a large amount of knowledge in visual media, including graphic design and film making.
-                    <br /><br />
-                    When navigating through my website, you can click on the header's logo to return to the top anytime. Enjoy!
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    <!-- Initial nav bar -->
+    <div id="beginNav">
+      <img src="images/mylogo_w.png" id="beginLogoNav">
 
-    
-    <div id="projectsBg">
-        <div id="projectsTitle">                    
-        	<br />
+      <button id="beginPortfolio">
+        <a href="portfolio.html">Portfolio</a>
+      </button>
 
-            Projects </div>
-        
-        <br />
-        
-        <div class="projectsSubTitle" style="font-size:24px"> Software &nbsp;&nbsp;Development </div>
-        <br />
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="shrinkSidePadding">
-                    &nbsp;&nbsp;&nbsp;&nbsp;Early in my middle school years, I took a nine week course in HTML and CSS. In those few weeks, I learned some solid knowledge about creating and designing websites. I like to think that was what springboarded me into my dedication towards a path in software. In the tenth grade through to the twelfth grade, I took all the computer science courses offered in my high school. Outside of school, I joined various clubs and always secured technological positions in those activites. I knew software was what I wanted to do in my future.
-                    <br /><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;As an undergraduate in software engineering, I continue to learn, to program, to create and innovate whenever I can. Here are some projects I have done in the past.
-                    <br />
-                    <br />
-                    <br />
-                    </p>          
-                </div>
-            </div>
-        </div>
+      <button id="beginAbout">
+        About
+      </button>
     </div>
-    
-    <div id="ytypeBg">
-        <div class="container">    
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Y-Type </h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-4 text-center">
-                    <img id="resizeYtype" src="img/y-type.png" /> <br /><br /><br />
-                </div>
-                <div class="col-md-3 vert-align">
-                    
-                    A project of a clone of the game Z-Type, made by Dominic Szablewski. This is a typing game, where objects with words fall from the top of the screen and the user has to destroy the objects by typing its associated word before it reaches the ship.
-                    <br /><br />
-                    Done in Java, in 2014.
-                    <br />
-                    <a href="https://github.com/AustinDu/Y-Type">Click here to view the GitHub source code.</a>  
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div id="two048Bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                	<br />
-                    <h1 class="h100"> 2048 &nbsp;Game </h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5 text-center">
-                    <img id="resize2048" src="img/2048-game.png" />
-                </div>
-                <div class="col-md-3 vert-align">
-                    
-                    A project that is a recreation the popular 2048 Game in 2014. The arrow keys allowed the player to move the numbered blocks around and combine them to reach the highest score possible.
-                    <br /><br />
-                    Done in Java, in 2014.
-                    <br />
-                    <a href="https://github.com/AustinDu/2048Game">Click here to view the GitHub source code.</a>  
-                </div>
-            </div>
-       </div>
-   </div> 
-        
-   <div id="candyBg">
-       <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Candy &nbsp;Defense </h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5 text-center">
-                    <img id="resizeCandy" src="img/candy-defense.png" />
-                </div>
-                <div class="col-md-3 vert-align-small">
-                    
-                    An original project of a game of tower defense. The user is able to place towers around the map to prevent the incoming waves of enemies from reaching the base. Money accumulates from enemy deaths, and more towers can be bought.
-                    <br /><br />
-                    Done in Java, in 2013.
-                    <br />
-                    <a href="https://github.com/AustinDu/Candy-Defense">Click here to view the GitHub source code.</a>  
-                </div>
-            </div>     
-        </div>
-    </div>
-    
-    
-    
-    <div id="digitalBg">
-        <br />
-        <br />
-        <div class="projectsSubTitle" style="font-size:24px">         
 
-            <br />Digital&nbsp; Media 
-            <br />
-            <br />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="shrinkSidePadding">
-                    &nbsp;&nbsp;&nbsp;&nbsp;For seven years I have been enrolled into a specialized program in my middle school and high school called CyberARTS. This is a multi-disciplinary program dedicated to communications technology and visual arts. As a result, I have had a refined skillset in graphic design, photo-manipulation, filmmaking, layout design done through the Adobe Suite software. As a result, I have an eye for aesthetically pleasing design, which I discovered is useful for numerous applications (say, the design of this website).
-                    <br /><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;As a graduate of CyberARTS and a honed interest in graphic design and filmmaking, here are some of my projects in digital media.
-                    <br />
-                    <br />
-                    <br />
-                    </p>          
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
-    
-    <div id="filmBg">
-       <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Short &nbsp; Film: &nbsp; Pursuit</h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-6 text-center">
-                   <iframe width="560" height="315" src="//www.youtube.com/embed/cBScnXDvegM" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-3 vert-align-small">
-                    
-                    A short film directed by myself, and written with two other peers. This film demonstrates the danger of an online presence. As a dark and psychological thriller, it is definitely the film I enjoyed directing the most.
-                    <br /><br />
-                    Shot with a Nikon D3100. Edited with Adobe After Effects. Done in 2013.
-                    <br />
-                </div>
-            </div>     
-        </div>
-    </div>
-    
-    
-    <div id="illustratorBg">
-       <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Illustrator &nbsp;: &nbsp; Sherlock Holmes</h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5 text-center">
-                   <a href="img/illustrator1.png" data-lightbox="illustrator" data-title="Sherlock"><img class="resizeIllustrator" src="img/illustrator1.png" /></a>
-                   <a href="img/illustrator2.png" data-lightbox="illustrator" data-title="Sherlock, close up"></a>
-                </div>
-                <div class="col-md-3 vert-align-small">
-                    
-                    A fully vectored drawing done in Adobe Illustrator. The artwork is a image of me superimposed into the character of Sherlock Holmes. 
-                    <br /><br />
-                    Done in Photoshop and Illustrator in 2013.
-                    <br /><br />
-                    Click on the image to view the project.
-                    <br />
-                </div>
-            </div>     
-        </div>
-    </div>
-    
+    <!-- After scrolling a set distance, the nav bar changes to a general nav bar-->
+    <div class="generalNav">
+      <img src="images/mylogo.png" id="generalLogoNav">
 
-    <div id="packagingBg">
-       <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Packaging &nbsp; Design: &nbsp; Nitsua &nbsp; Air</h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-5 text-center">
-                   <a href="img/packaging1.jpeg" data-lightbox="packaging" data-title="Nitsua Air"><img class="resizePackaging" src="img/packaging1.jpeg" /></a>
-                   <br /><br />
-                   <a href="img/packaging2.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging3.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging4.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging5.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging6.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging7.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                   <a href="img/packaging8.jpeg" data-lightbox="packaging" data-title="Nitsua Air"></a>
-                </div>
-                <div class="col-md-3 vert-align-small">
-                    
-                    Packaging design for a modern watch. All components are originally designed. The design was printed on cardstock and built by hand into its intended 3D model.
-                    <br /><br />
-                    Done in Illustrator in 2014.
-                    <br /><br />
-                    Click on the image to view the project.
-                    <br />
-                </div>
-            </div>     
-        </div>
-    </div>        
-    
-    <div id="visualBg">
-        <br />
-        <br />
-        <div class="projectsSubTitle" style="font-size:24px">         
+      <div id="generalHomeNav">
+        <a href="#">Home</a>
+      </div>
 
-            <br />Visual&nbsp; Media 
-            <br />
-            <br />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="shrinkSidePadding">
-                    &nbsp;&nbsp;&nbsp;&nbsp;In CyberARTS, the other half of the time was alotted to visual arts, or more traditional art. This included any artwork that was not done digitally, such as pencil work, paintings, and sculptures. 
-                    <br /><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;This section is dedicated towards my traditional art, which I have practiced since I was a boy. 
-                    <br />
-                    <br />
-                    <br />
-                    </p>          
-                </div>
-            </div>
-        </div>
+      <div id="generalPortfolioNav">
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+
+      <div id="generalContactNav">
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
-    
-    <div id="flightBg">
-       <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <br />
-                    <h1 class="h100"> Pilot</h1>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-6 text-center">
-                   <a href="img/flight.png" data-lightbox="flight" data-title="Pilot, a series of five"><img id="resizeFlight" src="img/flight.png"></a>
-                   <a href="img/flight1.jpeg" data-lightbox="flight" data-title="The Wright Flyer"></a>
-                   <a href="img/flight2.jpeg" data-lightbox="flight" data-title="SPAD.XIII"></a>
-                   <a href="img/flight3.jpeg" data-lightbox="flight" data-title="Lockheed P-38 Lightning"></a>
-                   <a href="img/flight4.jpeg" data-lightbox="flight" data-title="Lockheed SR-71 Blackbird"></a>
-                   <a href="img/flight5.jpeg" data-lightbox="flight" data-title="Lockheed F-35 Lightning II"></a>
-                </div>
-                <div class="col-md-3 vert-align-small">
-                    
-                    A series of five compositions done with graphite. Each drawing is of a iconic aircraft for its time. As the series progress, the time frame also moves forward.
-                    <br /><br />
-                    Done with pencil on paper in 2014.
-                    <br /><br />
-                    Click on the image to view the series.
-                    <br />
-                </div>
-            </div>     
+
+    <!-- Chevron shaped container for splash screen -->
+    <div class="content" id="content-home">
+        <div id="Austin">
+          Austin
         </div>
-    </div>
-    
-
-    <br />
-    <br />
-    <br />
-    
-    <div class="navbar navbar-default navbar-fixed-bottom">
-    	<div class="container">
-        	
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="margin-top:4px;">
-            	<span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        
-        	<div class="navbar-text pull-left" id="contactTitle"> Contact Me </div>
-            
-            <div class="collapse navbar-collapse navHeaderCollapse">
-            	<a class="navbar-text pull-right" href="http://ca.linkedin.com/in/austindu"><img src="img/linkedin.png"/></a>
-                <a class="navbar-text pull-right" href="https://github.com/AustinDu"><img src="img/github.png"  /></a>
-                <a class="navbar-text pull-right" href="http://instagram.com/austinduu/"><img src="img/instagram.png"  /></a>
-                <a class="navbar-text pull-right" href="mailto:akxdu@uwaterloo.ca"><img src="img/email.png" /></a>
-                <a class="navbar-text pull-right" href="img/Du_Austin_Resume.pdf"><img src="img/resumebtn-03.png"/></a>
-             </div>
-            
+        <div id="Du">
+          <span id="differentD">d</span>u
         </div>
+        <a href="contact.html">
+          <button id="contactOnHome">
+            contact
+          </button>
+        </a>
     </div>
-    
-    <!--<div id="contactTitle"> Contact Me </div>
-    <div id="contactBody"> 
-    	<a href="http://ca.linkedin.com/in/austindu">LinkedIn</a>
-		<br/>
+    <div class="chevronBottom" id="homeChevron"></div>
 
-		<a href="https://github.com/AustinDu">GitHub</a>
-		<br/>
+    <!-- Chevron shaped container for About-->
+    <div class="container" id="containerAbout">
+      <div class="content" id="content-about">
 
-		<a href="mailto:akxdu@uwaterloo.ca">akxdu@uwaterloo.ca</a>
-    </div>-->
-    <br />
-    <br />
-    <br />
-</body>
+        <div id="aboutTitle">
+          ABOUT
+        </div>
+        <div id="aboutText">
+          Welcome!<br/><br/> Feel free to look around, but let me
+          tell you a bit about myself first. I'm currently a second year student in Software
+          Engineering at the University of Waterloo. Apart from spending my time studying or developing
+          cool things<span style="font-family: HelveticaNeueThin;">,</span> I also enjoy being a graphic designer with a particular eye for user experience.
+          I mainly develop for iOS (<strong>Swift</strong>) and front-end web dev (<strong>Javascript<span style="font-family: HelveticaNeueThin;">,</span> HTML<span style="font-family: HelveticaNeueThin;">,</span> CSS</strong>) currently<span style="font-family: HelveticaNeueThin;">,</span> but I also have experince in <strong>C++<span style="font-family: HelveticaNeueThin;">,</span> C<span style="font-family: HelveticaNeueThin;">,</span> Java and Python </strong>.
+          If you want to contact me<span style="font-family: HelveticaNeueThin;">,</span> feel free to do so by <a href="contact.html" id="clickHereContact"> clicking here </a>.
+          <br/>
+          <br/>
+          Cheers<span style="font-family: HelveticaNeueThin;">,</span>
+          <br/>
+          Austin
+        </div>
+
+      </div>
+      <div class="chevronBottom" id="aboutChevron"></div>
+    </div>
+
+
+    <!-- Chevron shaped content for the link to portfolio.html -->
+    <div class="container" id="containerHomeToPortfolio">
+      <div class="content" id="content-homeToPortfolio">
+      </div>
+      <div class="chevronBottom" id="homeToPortfolioChevron"></div>
+    </div>
+    <div id="toPortfolioContainer">
+      <a href="portfolio.html" id="toPortfolioLink">TO PORTFOLIO</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="footerOnHomePage">
+      © 2015 Austin Du All Rights Reserved
+    </div>
+  </body>
 </html>

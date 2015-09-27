@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  height: 150vh; /* heights of three chevron's added together + 11vh for footer */
+  background-color: #FFFFFF; /* colour of last chevron*/
+}
+
+/* ----------------------- GENERAL NAV ------------------------------------- */
+
+#generalNavOnPortfolioPage{
+  opacity: 1.0;
+}
+
+#generalHomeNav{
+  opacity: inherit;
+  position: absolute;
+  font-family: MoonBold;
+  font-size: 0.9em;
+  top: 3vh;
+  right: 50vw;
+  color: #1A1A1A;
+  z-index: 3;
+  font-style: normal;
+  opacity: 1.0;
+}
+
+#generalPortfolioNav{
+  opacity: inherit;
+  position: absolute;
+  font-family: MoonBold;
+  font-size: 0.9em;
+  top: 3vh;
+  right: 30vw;
+  color: #1A1A1A;
+  z-index: 3;
+  font-style: normal;
+  opacity: 1.0;
+}
+
+#generalContactNav{
+  opacity: inherit;
+  position: absolute;
+  font-family: MoonBold;
+  font-size: 0.9em;
+  top: 3vh;
+  right: 15vw;
+  color: #1A1A1A;
+  z-index: 3;
+  font-style: normal;
+  opacity: 1.0;
+}
+
+#generalLogoNav{
+  opacity: inherit;
+  position: relative;
+  height: 6vh;
+  top: 1vh;
+  left: 3vw;
+  opacity: 1.0;
+}
+
+/* ------------------------------ CONTENT ---------------------------*/
+
+#content-home{
+  height: 130vh;
+  background-color: #1A1A1A;
+}
+
+
+/* ------------------------------ SPLASH --------------------------- */
+#Contact{
+  position: relative;
+  font-size: 10em;
+  text-align: center;
+  font-family: Againts;
+  color: #EEEEEE;
+  top: 22vh;
+}
+
+#ContactSummary{
+  position: relative;
+  font-size: 1em;
+  text-align: center;
+  font-family: MoonLight;
+  color: #EEEEEE;
+  top: 30vh;
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  line-height: 3em;
+}
+
+/* ----------------------- CHEVRON POINTS ------------------------------------- */
+#contactChevron{
+  border-top-color: #1A1A1A;
+}
+
+#contact-center{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: 150px;
+  top: 60px;
+}
+
+/* ----------------------- FOOTER ------------------------------------- */
+#footerOnContactPage{
+  top: -50px;
+}
