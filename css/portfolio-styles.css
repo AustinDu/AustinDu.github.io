@@ -499,4 +499,45 @@ body{
     top: 18vh;
     font-size: 1.5em;
   }
+
+  .software-projects-title{
+    font-family: MoonBold;
+    color: #FF6666;
+    font-size: 4em;
+    top:200px;
+    position: relative;
+  }
+  .software-projects-body{
+    font-family: Antipasto-extralight;
+    color: #696969;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    top:270px;
+    position: relative;
+    line-height: 45px;
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .digital-projects-title{
+    font-family: MoonBold;
+    color: #FF6666;
+    font-size: 4em;
+    top:200px;
+    position: relative;
+  }
+  .digital-projects-body{
+    font-family: Antipasto-extralight;
+    color: #696969;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    top:270px;
+    position: relative;
+    line-height: 45px;
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+  }
+
 }
