@@ -108,17 +108,31 @@ body{
 }
 
 @media only screen and (min-device-width: 319px) and (max-device-width: 415px) {
-  #ContactSummary{
-    position: relative;
+  #Contact{
+    font-size: 15em;
+  }
+
+  #generalHomeNav{
     font-size: 1.5em;
-    text-align: center;
-    font-family: MoonLight;
-    color: #EEEEEE;
-    top: 30vh;
-    width: 50vw;
-    display: block;
-    margin: 0 auto;
-    line-height: 3em;
+    right: 60vw;
+  }
+
+  #generalPortfolioNav{
+    font-size: 1.5em;
+    right: 35vw;
+  }
+
+  #generalContactNav{
+    font-size: 1.5em;
+    right: 15vw;
+  }
+
+  #generalLogoNav{
+    left: 8vw;
+  }
+
+  #ContactSummary{
+    font-size: 1.5em;
   }
 
 }
