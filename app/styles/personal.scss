@@ -1,0 +1,162 @@
+#personalTitle {
+  color: #f47442;
+  margin-top: 40px;
+}
+
+.personal-container {
+  position: absolute;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px);
+  z-index: 4;
+}
+
+.chevron-personal {
+  margin-top: -5px;
+  .chevron {
+    height: 275px;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(240,240,240);
+  }
+  .chevron:after {
+    background: rgb(240,240,240);
+  }
+}
+
+.flare-container {
+  position: absolute;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 40px;
+  z-index: 4;
+  color: $dark-grey;
+  img {
+    height: 65px;
+  }
+  a {
+      color: $dark-grey;
+      text-decoration: none;
+  }
+}
+
+.chevron-flare {
+  margin-top: -5px;
+  .chevron {
+    height: 275px;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(235,235,235);
+  }
+  .chevron:after {
+    background: rgb(235,235,235);
+  }
+}
+
+
+
+
+.spaceapps-container {
+  position: absolute;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 10px;
+  z-index: 4;
+  color: white;
+  .more-info-container {
+    margin-top: 20px;
+  }
+  img {
+    height: 140px;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+}
+
+.chevron-spaceapps {
+  margin-top: -5px;
+  .chevron {
+    height: 275px;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: #4a4a4a;
+  }
+  .chevron:after {
+    background: #4a4a4a;
+  }
+}
+
+
+.hackthenorth-container {
+  position: absolute;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 40px;
+  z-index: 4;
+  img {
+    height: 65px;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+}
+
+.chevron-hackthenorth {
+  margin-top: -5px;
+  .chevron {
+    height: 275px;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: #282828;
+  }
+  .chevron:after {
+    background: #282828;
+  }
+}
+
+
+.mhacks-container {
+  position: absolute;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 40px;
+  z-index: 4;
+  img {
+    height: 65px;
+  }
+  a {
+      color: rgb(219,65,58);
+      text-decoration: none;
+  }
+}
+
+.chevron-mhacks {
+  margin-top: -5px;
+  .chevron {
+    height: 275px;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(247,218,147);
+  }
+  .chevron:after {
+    background: rgb(247,218,147);
+  }
+}
+
+.my-footer {
+  background: white;
+  height: 400px;
+  position: relative;
+  margin-top: -300px;
+  opacity: 0.95;
+  color: $dark-grey;
+  font-family: HelveticaNeue-Thin;
+  text-align: center;
+  margin-right: -2px;
+  span {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
