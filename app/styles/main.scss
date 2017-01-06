@@ -4,13 +4,13 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 // custom:scss
-@import "colours.scss";
-@import "fonts.scss";
-@import "intro.scss";
-@import "about.scss";
-@import "work.scss";
-@import "personal.scss";
-@import "floating.scss";
+@import "_colours.scss";
+@import "_fonts.scss";
+@import "_intro.scss";
+@import "_about.scss";
+@import "_work.scss";
+@import "_personal.scss";
+@import "_floating.scss";
 // endcustom
 
 .browsehappy {
