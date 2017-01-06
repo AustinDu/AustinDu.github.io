@@ -65,6 +65,26 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      },
+      buildcontrol: {
+        options: {
+          dir: 'dist',
+          commit: true,
+          push: true,
+          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        },
+        pages: {
+          options: {
+            remote: 'git@github.com:AustinDu/AustinDu.github.io.git',
+            branch: 'gh-pages'
+          }
+        },
+        local: {
+          options: {
+            remote: '../',
+            branch: 'build'
+          }
+        }
       }
     },
 
