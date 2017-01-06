@@ -1,0 +1,51 @@
+/* line 2, ../../app/styles/about.scss */
+.chevron-about .chevron {
+  height: 950px;
+}
+/* line 5, ../../app/styles/about.scss */
+.chevron-about .chevron:before {
+  background: #fafafa;
+}
+/* line 8, ../../app/styles/about.scss */
+.chevron-about .chevron:after {
+  background: #fafafa;
+}
+
+/* line 13, ../../app/styles/about.scss */
+.about-container {
+  position: absolute;
+  top: 130vh;
+}
+
+/* line 18, ../../app/styles/about.scss */
+.moonTitle {
+  font-family: MoonBold;
+  font-size: 4em;
+  text-align: center;
+  position: relative;
+  letter-spacing: 1vw;
+  text-indent: 2vw;
+  display: block;
+}
+
+/* line 28, ../../app/styles/about.scss */
+#aboutTitle {
+  color: #FF6666;
+  margin-top: 40px;
+}
+
+/* line 33, ../../app/styles/about.scss */
+#aboutText {
+  font-family: DosisBold;
+  font-size: 1.0em;
+  text-align: center;
+  margin-top: 5%;
+  position: relative;
+  color: #8F8D8A;
+  width: 50vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.9em;
+  z-index: 10000;
+}
